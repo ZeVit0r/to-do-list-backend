@@ -22,4 +22,4 @@ app.get("/signin/callback", (request, response) => {
     return response.json(code)
 })
 
-app.listen(4000, () => console.log('Server is running on PORT 4000'))
+app.listen(process.env.PORT || 4000, () => console.log('Server is running'))
