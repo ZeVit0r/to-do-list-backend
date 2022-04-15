@@ -5,9 +5,9 @@
   "license": "MIT",
   "author": "zevit0r",
   "scripts": {
-    "dev": "ts-node-dev --exit-child src/app.ts",
-    "build": "tsc --build",
-    "clean": "tsc --build --clean"
+    "start": "node src/app.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --exit-child src/app.ts"
   },
   "dependencies": {
     "@prisma/client": "^3.12.0",
