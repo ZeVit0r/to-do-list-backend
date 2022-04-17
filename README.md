@@ -75,6 +75,9 @@ $ cd to-do-list-backend
 # Instale as dependências
 $ yarn
 
+# Execute as migrations
+$ yarn prisma migrate dev
+
 # Execute a aplicação
 $ yarn dev
 ```
